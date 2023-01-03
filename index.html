@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panda-Commerce</title>
+    <!--        bootstrao stylesheet===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- ============fontawesome=========== -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--============ css stylesheet =========== -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <head>
+      <nav class="container navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images/logo.png"
+              alt=""
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <div class="search-box col-5 position-relative">
+            <form class="d-flex">
+              <input
+                class="form-control rounded-pill"
+                type="search "
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn rounded-circle position-absolute top-0 end-0 translate-middle-x"
+                type="button"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-black-50 fs-5 fw-bold active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50 fs-5 fw-bold" href="#"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-50 fs-5 fw-bold" href="#"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </head>
+    <!-- =================  header end ================ -->
+
+    <main>
+      <!--===== slider Image ==== -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide container pb-5"
+        data-bs-ride="carousel"
+      >
+        <div class="slider-bg-color rounded-3 container mt-5 carousel-inner">
+          <div class="carousel-item active">
+            <div class="row p-5 d-flex align-items-center">
+              <div class="slider-details col-lg-8">
+                <h1><b> Mega LCD TV For Sports </b></h1>
+                <br />
+                <p>
+                  This is the best tv in the world for people who just want to
+                  waste time in front of tv.
+                </p>
+                <h1 style="font-weight: bold; color: rgb(255, 19, 111)">
+                  $1250
+                </h1>
+                <button type="button" class="btn btn-color rounded-3 my-2 px-4">
+                  Buy Now
+                </button>
+              </div>
+              <div class="slider-img col-lg-4">
+                <img
+                  src="/images/banner-images/tv.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5 d-flex align-items-center">
+              <div class="slider-details p-2 col-lg-8">
+                <h1><b>Cool Dude Headphone</b></h1>
+                <br />
+                <p>
+                  This is the best headphone in the world for people who just
+                  want to waste time in front of funky world.
+                </p>
+                <h1 style="font-weight: bold; color: rgb(255, 19, 111)">
+                  $250
+                </h1>
+                <button type="button" class="btn btn-color rounded-3 mt-2 px-4">
+                  Buy Now
+                </button>
+              </div>
+              <div class="slider-img col-lg-4">
+                <img
+                  src="/images/banner-images/headphone.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row p-5 d-flex align-items-center">
+              <div class="slider-details col-lg-8">
+                <h1><b>X-Box for your living room </b></h1>
+                <br />
+                <p>
+                  This is the best x-box in the world for people who just want
+                  to waste time in front of fake sports.
+                </p>
+                <h1 style="font-weight: bold; color: rgb(255, 19, 111)">
+                  $550
+                </h1>
+                <button type="button" class="btn btn-color rounded-3 mt-2 px-4">
+                  Buy Now
+                </button>
+              </div>
+              <div class="slider-img col-lg-4">
+                <img
+                  src="/images/banner-images/xbox.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ========== categoris ========= -->
+      <section class="container my-5 pb-5">
+        <div class="row gx-lg-5">
+          <div class="col-lg-4">
+            <div
+              style="background-color: rgb(255, 165, 0)"
+              class="categoris-style p-3 border d-flex align-items-center justify-content-between"
+            >
+              <h1>Watch</h1>
+              <img src="/images/categories/watch.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              style="background-color: rgb(218, 112, 214)"
+              class="categoris-style p-3 border d-flex align-items-center justify-content-between"
+            >
+              <h1>Bag</h1>
+              <img src="/images/categories/bag.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              style="background-color: rgb(0, 0, 255)"
+              class="categoris-style p-3 border d-flex align-items-center justify-content-between"
+            >
+              <h1>Shoes</h1>
+              <img src="/images/categories/shoes.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ============== shoes card item======================= -->
+      <section class="container my-5">
+        <h1>Shoes</h1>
+        <br />
+        <div class="row row-cols-1 row-cols-md-3 g-5">
+          <div class="col">
+            <div class="card h-100 border-0 ps-2 shadow-lg rounded-3">
+              <img
+                src="/images/shoes/shoe-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional.
+                </p>
+                <h4><b>$499</b></h4>
+                <button type="button" class="btn btn-color rounded-3 mt-2 px-4">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 ps-2 shadow-lg rounded-3">
+              <img
+                src="/images/shoes/shoe-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <h4><b>$999</b></h4>
+                <button type="button" class="btn btn-color rounded-3 mt-2 px-4">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 ps-2 shadow-lg rounded-3">
+              <img
+                src="/images/shoes/shoe-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional.
+                </p>
+                <h4><b>$999</b></h4>
+                <button type="button" class="btn btn-color rounded-3 mt-2 px-4">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--====================== cards Items end ======================= -->
+      <!-- =============== bags card items  =================== -->
+      <section class="container my-5 pb-5">
+        <h1>Backpack</h1>
+        <br />
+        <div class="row row-cols-1 row-cols-md-3 g-5">
+          <div class="col">
+            <div class="card h-100 border-0 ps-2 shadow-lg rounded-3">
+              <img
+                src="/images/bags/bag-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Red Laltu Bag</h4>
+                <h4><b>$499</b></h4>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural.
+                  This content is a little bit longer.
+                </p>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-color rounded-3 mt-2 px-4"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 ps-2 shadow-lg rounded-3">
+              <img
+                src="/images/bags/bag-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Blue Niltu Bag</h4>
+                <h4><b>$999</b></h4>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-color rounded-3 mt-2 px-4"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 ps-2 shadow-lg rounded-3">
+              <img
+                src="/images/bags/bag-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Black Kaltu Bag</h4>
+                <h4><b>$999</b></h4>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional.
+                </p>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-color rounded-3 mt-2 px-4"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--====================== main end ======================= -->
+    <footer>
+      <section
+        style="height: 300px; background-color: rgb(252, 234, 232)"
+        class="container rounded-3 d-flex align-items-center justify-content-center"
+      >
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p style="text-align: center">
+            Get updates on sales, specials and more
+          </p>
+          <textarea name="" id="" cols="48" rows="3"></textarea>
+          <!-- <input style="height: 30px" type="text" name="" id="" /> -->
+          <br />
+          <center>
+            <button type="button" class="btn btn-color rounded-3 mt-2 px-5">
+              Submit
+            </button>
+          </center>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

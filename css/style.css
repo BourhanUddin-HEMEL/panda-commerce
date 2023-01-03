@@ -1,0 +1,23 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.slider-bg-color {
+  background-color: rgb(254, 234, 233);
+}
+.btn-color {
+  color: white;
+  background-color: rgb(255, 58, 136);
+}
+/*======== categoris color =========== */
+.categoris-style h1 {
+  color: white;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.categoris-style img {
+  width: 100px;
+}
+.categoris-style {
+  border-radius: 10px;
+}
